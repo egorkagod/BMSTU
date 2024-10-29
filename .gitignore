@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Лог файлы
+*.log
+
+# venv / виртуальная среда
+venv/
+.env/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# IDE PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Библиотеки
+*.egg-info/
+.eggs/
+
+# Кэш pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Тесты
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker (если используете)
+*.env
+*.dockerignore
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
